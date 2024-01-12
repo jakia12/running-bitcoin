@@ -87,6 +87,30 @@
       crossorigin="anonymous"
     /> -->
     <!-- END Custom CSS-->
+
+    <style>
+      .ban_txt{
+        display: flex;justify-content: center;
+        padding-top:20px
+      }
+.ban_logo{
+  width:100%;max-width:320px;height:260px;margin-right:30px
+}
+     @media screen and (max-width:768px){
+      .ban_txt{
+        display: block;
+        /* margin:0 auto; */
+        text-align: center;
+        padding-top:50px
+      }
+      .ban_logo{
+  margin-right:0;
+  margin-top:40px;
+  margin-bottom:20px
+}
+      
+     }
+    </style>
     <link rel="preload" as="image" href="logo.png" />
     <link rel="preload" as="image" href="logo.png" />
     <link
@@ -217,7 +241,7 @@
         </li>
       </ul>
     </nav>
-    <nav class="vertical-pager">
+    <!-- <nav class="vertical-pager">
       <span class="p01">01</span>
       <span class="p02">02</span>
       <span class="p03">03</span>
@@ -226,7 +250,7 @@
       <span class="p06">06</span>
       <span class="p07">07</span>
       <span class="p08">08</span>
-    </nav>
+    </nav> -->
     <!-- /////////////////////////////////// HEADER /////////////////////////////////////-->
     <style>
       @media screen and (max-width: 968px) {
@@ -546,12 +570,22 @@
                 <div class="banner-wrapper">
                   <div class="row align-items-center">
                     <div class="move-first animated" style="width: 100%">
+                     <div class="ban_txt">
                       <img
-                        src="ban.jpg"
-                        class="crypto-logo-img rounded mx-auto d-block"
-                        alt="logo"
-                        style="width:100%;max-width:350px"
-                      />
+                     src="ban.jpg"
+                     class="crypto-logo-img "
+                     alt="logo"
+                     
+                     
+                   />
+                   <img
+                   src="tweet.png"
+                   class="crypto-logo-img ban_logo "
+                   alt="logo"
+                   
+                 />
+                     </div>
+                    
                       <!--img src="theme-assets/images/problems-graphic.png" class="crypto-logo-img rounded ml-auto d-block no_pad_left_ow_center" alt="logo" -->
                       <style>
                         @font-face {
