@@ -690,6 +690,12 @@ a.audit-btn:hover {
 }
 
 /*********modified css*******/
+.token {
+  font-size: 14px;
+  font-family: "poppins";
+  color: #fff;
+  text-align: center;
+}
 .ca_txt {
   font-size: 18px;
   color: #fff;
